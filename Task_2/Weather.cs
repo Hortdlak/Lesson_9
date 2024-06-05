@@ -7,11 +7,11 @@ namespace Lesson_9.Task_2
     {
         #region Weather init
 
-        public DateTime? Time { get; set; }
-        public double? Temperature { get; set; }
-        public int? Weathercode { get; set; }
-        public double? Windspeed { get; set; }
-        public int? Winddirection { get; set; }
+        protected DateTime? Time { get; set; }
+        protected double? Temperature { get; set; }
+        protected int? Weathercode { get; set; }
+        protected double? Windspeed { get; set; }
+        protected int? Winddirection { get; set; }
 
         #endregion
 
